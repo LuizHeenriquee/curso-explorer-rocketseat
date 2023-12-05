@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root {
+    --orangePeel: #FF9900;
+    --taupeGray: #7D7987;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#hero {
+    width: 593px;
+    margin: 0 auto 72px;
+}
+
+#hero img {
+    margin-bottom: 72px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+.orange-text, a {
+    color: var(--orangePeel);
+}
+
+footer, p {
+    color: var(--taupeGray);
+    font-size: 14px;
+    line-height: 28px;
+}
+
+footer a + a { /* Essa propriedade indica: "um a que anterior a ele tenha um a" */
+    margin-left: 28px;
+}
+
+#line {
+    width: 568px;
+    height: 0;
+    margin: 0 auto 8px; /* 0 top, auto laterais e 8 bottom */
+    border: 1px solid var(--taupeGray);
+}
+
+#balls-img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
