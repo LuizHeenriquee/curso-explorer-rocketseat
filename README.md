@@ -3,10 +3,10 @@
 </h1>
 
 <p>
-  🇧🇷 Repositório para armazenar os projetos e desafios do curso Explorer da Rocketseat <br>
+  🇧🇷 Repositório para armazenar os projetos e desafios do curso Explorer da Rocketseat.
 </p>
 <p>
-  🇬🇧 Repository to store Rocketseat Explorer course projects and challenges
+  🇬🇧 Repository to store Rocketseat Explorer course projects and challenges.
 </p>
 <br>
 <p>
