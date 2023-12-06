@@ -2,6 +2,10 @@
   Curso Explorer - Rocketseat 🚀
 </h1>
 
+<h2>
+  Orientações/Guidelines
+</h2>
+
 <p>
   🇧🇷 Repositório para armazenar os projetos e desafios do curso Explorer da Rocketseat.
 </p>
