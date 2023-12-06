@@ -13,8 +13,28 @@ body {
     color: var(--gray);
 }
 
+main {
+    margin: 64px 199px 240px;
+    text-align: center;
+}
+
 main h1 {
     font-family: 'Dosis', sans-serif;
     color: var(--englishViolet);
+    font-size: 32px;
 }
 
+main h1 span {
+    color: var(--fuchsia);
+}
+
+main p {
+    font-size: 15px;
+    text-align: center;
+    margin: 16px 36px 32px 50px;
+}
+
+main p span {
+    font-weight: 700;
+    color: var(--englishViolet);
+}
