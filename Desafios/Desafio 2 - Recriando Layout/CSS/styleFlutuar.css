@@ -11,6 +11,8 @@ body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     color: var(--gray);
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -37,4 +39,29 @@ main p {
 main p span {
     font-weight: 700;
     color: var(--englishViolet);
+}
+
+footer a {
+    border: 1px solid white;
+    color: var(--englishViolet);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 8px;
+    transition: all .3s;
+}
+
+footer a:hover {
+    border: 1px solid #3f3d5669;
+    box-shadow: 3px 3px 9px #3f3d5669;
+    transition: all .3s;
+}
+
+footer a + a {
+    margin-left: 30px;
+}
+
+footer img {
+    position: static;
+    width: 100%;
 }
