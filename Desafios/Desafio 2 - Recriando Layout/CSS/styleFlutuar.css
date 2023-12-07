@@ -52,7 +52,6 @@ footer a {
 }
 
 footer a:hover {
-    border: 1px solid #3f3d5669;
     box-shadow: 3px 3px 9px #3f3d5669;
     transition: all .3s;
 }
