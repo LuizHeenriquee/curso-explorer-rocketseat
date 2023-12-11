@@ -19,7 +19,7 @@ ul {
     padding: 0;
 }
 
-ul li a {
+a {
     color: #1F1534;
     text-decoration: none;
 }
@@ -38,7 +38,7 @@ h1 {
     font-size: 49px;
     font-weight: normal;
     line-height: 56px;
-    color: black;
+    color: #1F1534;
     width: 490px;
 }
 
@@ -56,4 +56,13 @@ p {
 button {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+footer a {
+    font-weight: bold;
 }
