@@ -52,3 +52,7 @@ p {
     line-height: 28px;
     color: #7D7987;
 }
+
+button {
+    text-transform: uppercase;
+}
