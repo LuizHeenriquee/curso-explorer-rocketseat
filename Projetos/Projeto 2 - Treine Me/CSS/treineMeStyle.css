@@ -36,7 +36,7 @@ main {
 
 .page {
     width: 1000px;
-    margin: 65px auto 0;
+    margin: 65px auto 0; /* Top, sides, bottom */
 }
 
 h1 {
@@ -61,8 +61,22 @@ p {
 }
 
 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 32px 15px; /* Top, sides, bottom */
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    background: #69B99D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4ea788;
 }
 
 footer {
