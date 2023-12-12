@@ -28,6 +28,12 @@ ul li a:hover {
     font-weight: bold;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .page {
     width: 1000px;
     margin: 65px auto 0;
@@ -51,6 +57,7 @@ p {
     font-size: 14px;
     line-height: 28px;
     color: #7D7987;
+    margin: 40px 0; /* 40px top&bottom, 0 sides */
 }
 
 button {
@@ -61,6 +68,8 @@ button {
 footer {
     font-size: 14px;
     line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
 }
 
 footer a {
