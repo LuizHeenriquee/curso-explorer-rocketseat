@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-
-/* font-family: 'Open Sans', sans-serif; */
-
 :root {
    --black: #000000;
    --keppel: #00BFA6;
@@ -12,7 +9,8 @@
 }
 
 body {
-    margin: 0;
+    width: 1250px;
+    margin: 0 auto;
     padding: 71px 99px 0;
     font-family: 'JetBrains Mono', monospace;
     color: var(--white);
@@ -43,4 +41,36 @@ ul a:hover {
 a {
     text-decoration: none;
     color: var(--white);
+}
+
+/* Main */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 101px;
+}
+
+/* Section */
+section h1 {
+    font-size: 36px;
+    margin-bottom: 59px;
+}
+
+section h1 span {
+    color: var(--keppel);
+}
+
+section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400;
+    text-align: center;
+    line-height: 28px;
+    width: 604px;
+    color: var(--silver);
+}
+
+section p span {
+    font-weight: 700;
+    color: var(--keppel);
 }
