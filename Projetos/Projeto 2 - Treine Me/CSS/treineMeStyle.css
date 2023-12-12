@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
 }
 
 nav {
@@ -37,7 +38,8 @@ main {
 
 .page {
     width: 1000px;
-    margin: 65px auto 0; /* Top, sides, bottom */
+    margin: 0 auto;
+    padding-top: 65px;
 }
 
 h1 {
@@ -89,4 +91,10 @@ footer {
 
 footer a {
     font-weight: bold;
+}
+
+#balls-img {
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
