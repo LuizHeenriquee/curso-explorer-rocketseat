@@ -44,8 +44,7 @@ a {
   opacity: 1;
 }
 
-.list,
-.title {
+.list, .title {
   font-family: "Mulish", sans-serif;
 }
 
