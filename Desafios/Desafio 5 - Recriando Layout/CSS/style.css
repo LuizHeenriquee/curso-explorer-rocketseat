@@ -74,3 +74,23 @@ section p span {
     font-weight: 700;
     color: var(--keppel);
 }
+
+/* Line */
+
+.line {
+    border: 1px solid var(--keppel);
+    width: 568px;
+    margin: 158px auto 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 27px;
+}
+
+#cadeado {
+    position: fixed;
+    bottom: 20;
+    left: 20;
+}
