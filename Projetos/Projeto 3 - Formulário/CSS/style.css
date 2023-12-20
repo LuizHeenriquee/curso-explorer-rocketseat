@@ -14,9 +14,14 @@ body::before {
     background: #121214;
 }
 
-header {
+.page {
     width: 746px;
     margin: 0 auto;
+}
+
+header {
+    width: 319px;
+    margin-top: 74px;
 }
 
 header h1 {
@@ -31,4 +36,11 @@ header p {
     font-size: 16px;
     line-height: 26px;
     color: #42D3FF;
+}
+
+form {
+    margin-top: 38px;
+    background: #FAFAFC;
+    border-radius: 8px;
+    min-height: 300px;
 }
