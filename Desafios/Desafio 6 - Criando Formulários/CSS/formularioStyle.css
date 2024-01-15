@@ -16,6 +16,7 @@
 /* Body */
 body {
     background: var(--antiFlashWhite);
+    font-family: 'Poppins', sans-serif;
 }
 
 body::before {
@@ -35,7 +36,40 @@ body::before {
     margin: 0 auto;
 }
 
+/* Header */
+header {
+    margin-top: 140px;
+    color: var(--antiFlashWhite);
+}
+
+header h1 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+header p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 417px;
+    
+}
+
 /* Form */
 form {
+    background: white;
     width: 750px;
+    margin-top: 58px;
+    border: none;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Fieldset */
+fieldset {
+    border: none;
 }
