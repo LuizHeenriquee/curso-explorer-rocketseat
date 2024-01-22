@@ -107,6 +107,10 @@ fieldset p {
     color: var(--paynesGray);
 }
 
+fieldset input:invalid {
+    border: 1px solid #FF1010;
+}
+
 /* Informações Pessoais */
 .mentee-name-surname {
     display: flex;
