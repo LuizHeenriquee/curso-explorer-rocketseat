@@ -152,8 +152,8 @@ fieldset p {
 .mentoring-schedules {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 32px;
+    gap: 16px;
 }
 
 .mentoring-hours-date {
@@ -173,15 +173,24 @@ fieldset p {
     margin-bottom: 8px;
 }
 
-
-.mentoring-das-ate {
+.mentoring-hours {
     display: flex;
-    align-items: center;
     gap: 10px;
 }
 
-.mentoring-hours {
+.mentoring-hours label {
+    margin-bottom: 8px;
+}
+
+.mentoring-hours-begin {
     display: flex;
     flex-direction: column;
-    width: 100%;
+}
+
+.mentoring-hours-begin input, .mentoring-hours-end input {
+    width: 140px;
+}
+
+#mentoring-end {
+    margin-top: 8px;
 }
