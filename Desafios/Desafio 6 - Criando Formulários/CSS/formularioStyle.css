@@ -160,18 +160,28 @@ fieldset p {
     display: flex;
     align-items: center;
     margin-top: 8px;
+    gap: 32px;
 }
 
 .mentoring-date {
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .mentoring-date label {
     margin-bottom: 8px;
 }
 
+
+.mentoring-das-ate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .mentoring-hours {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
