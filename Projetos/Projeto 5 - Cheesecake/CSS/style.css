@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 62.5%;
+}
+
+body {
+    color: #A54328;
+    font-size: 1.6rem;
+}
+
+h1, h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+}
+
+p, li, strong {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+button {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 500;
+    color: white;
+    background-color: #A54328;
+    border: none;
+    border-radius: .6rem;
+    padding: .8rem 1.2rem; /* Top/Bottom = 8px, Sides = 12px */
+    margin-top: 1.8rem;
+}
