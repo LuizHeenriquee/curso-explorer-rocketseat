@@ -18,14 +18,41 @@ body {
     font-size: 1.6rem;
 }
 
+main {
+    max-width: 32rem;
+    margin-inline: auto;
+    padding: 5.6rem 4rem;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+img {
+    width: 100%;
+    margin-block: 3.2rem;
+}
+
 h1, h2 {
     font-size: 2.8rem;
     line-height: 3.6rem;
 }
 
+h2 {
+    margin-bottom: 3.2rem;
+}
+
 p, li, strong {
     font-size: 1.4rem;
     line-height: 1.8rem;
+}
+
+ul, ol {
+    padding-left: 2.4rem;
+}
+
+ul {
+    margin-bottom: 3.2rem;
 }
 
 button {
@@ -36,5 +63,5 @@ button {
     border: none;
     border-radius: .6rem;
     padding: .8rem 1.2rem; /* Top/Bottom = 8px, Sides = 12px */
-    margin-top: 1.8rem;
+    margin-top: 2.4rem;
 }
