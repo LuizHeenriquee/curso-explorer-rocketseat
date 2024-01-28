@@ -34,6 +34,7 @@ img {
 }
 
 h1, h2 {
+    /* Lembrar da propriedade clamp(min, ideal, alto) alto = max */
     font-size: 2.8rem;
     line-height: 3.6rem;
 }
@@ -43,6 +44,7 @@ h2 {
 }
 
 p, li, strong {
+    /* Lembrar da propriedade clamp(min, ideal, alto) alto = max */
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
@@ -64,4 +66,42 @@ button {
     border-radius: .6rem;
     padding: .8rem 1.2rem; /* Top/Bottom = 8px, Sides = 12px */
     margin-top: 2.4rem;
+}
+
+@media (min-width: 1120px) { /* Até 1120px ele se adapta */
+    main {
+        flex-direction: row;
+        max-width: fit-content; /* Encaixa no tamanho do conteúdo */
+        gap: 16rem;
+    }
+
+/* Caso eu quisesse mexer nas divs de forma igualitária */
+    /* main > div {
+        flex: 1;
+        max-width: 50rem;
+    } */
+
+    .recipe {
+        max-width: 43.5rem;
+    }
+
+    .ingredients {
+        max-width: 52.5rem;
+    }
+
+    h1, h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    p, li, strong {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
 }
