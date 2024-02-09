@@ -8,8 +8,32 @@
 
 :root {
     font-size: 62.5%;
+    --color-base-white: #FFFFFF;
+    --color-base-gray-100: #F5F5F5;
+    --color-base-gray-300: #8D8D99;
+    --color-base-gray-900: #202024;
 }
 
 body {
     font-size: 1.6rem;
+    background: var(--color-base-white);
+    color: var(--color-base-gray-900);
+}
+
+#app {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
+}
+
+.container {
+    padding: 1.6rem 3.2rem;
+    width: min(112rem, 100%);
+    margin: 0 auto;
+}
+
+main {
+    background-color: lightblue;
+    overflow-y: scroll;
+    background: var(--color-base-gray-100);
 }
