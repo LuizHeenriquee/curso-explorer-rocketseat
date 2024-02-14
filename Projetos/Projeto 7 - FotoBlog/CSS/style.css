@@ -33,8 +33,41 @@ body {
     margin: 0 auto;
 }
 
+header, nav, nav ul {
+    display: flex;
+    align-items: center;
+    gap: 7.2rem;
+    font-weight: 700;
+}
+
+header form {
+    flex: 1; /* Preenche todo o espaço disponível para ele */;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.8rem;
+    color: var(--color-base-gray-300);
+}
+
+ul li.active {
+    color: var(--color-base-gray-900);
+}
+
+.avatar {
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: cover; /* Cobre o espaço sem deixar a imagem feia */
+    border-radius: 50%;
+}
+
 main {
-    background-color: lightblue;
     overflow-y: scroll;
     background: var(--color-base-gray-100);
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
+    padding: 1.6rem;
 }
