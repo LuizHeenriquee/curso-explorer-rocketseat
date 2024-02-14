@@ -92,6 +92,22 @@ main {
     background: var(--color-base-gray-100);
 }
 
+main h1 {
+    font-size: 2.4rem;
+    padding-top: 1.6rem;
+}
+
+.gallery {
+    margin-top: 3.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.2rem;
+}
+
+.item img {
+    width: 100%;
+}
+
 footer p {
     text-align: center;
     font-weight: 600;
