@@ -104,8 +104,37 @@ main h1 {
     gap: 2.2rem;
 }
 
+.item {
+    background-color: var(--color-base-white);
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
 .item img {
     width: 100%;
+    aspect-ratio: 16/9; /* horizontal/vertical */
+    object-fit: cover; /* Redimensiona para se ajustar ao "container" */
+}
+
+.details {
+    padding: 2.2rem;
+}
+
+.details h2 {
+    font-size: 1.8rem;
+}
+
+.tags {
+    margin-top: 1.2rem;
+}
+
+.tags span {
+    padding: .6rem;
+    background-color: var(--color-base-gray-100);
+    border-radius: .4rem;
+    line-height: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 footer p {
