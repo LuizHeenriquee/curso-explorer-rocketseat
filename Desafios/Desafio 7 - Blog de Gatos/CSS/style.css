@@ -9,6 +9,14 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+    font-size: 62.5%;
+    --raisinBlack: #202024;
+    --lapisLazuli: #065E7C;
+    --cerulean: #387E96;
+    --ghostWhite: #F6F8FF;
+}
+
 html, body, input {
     font-family: 'Mulish', sans-serif;
 }

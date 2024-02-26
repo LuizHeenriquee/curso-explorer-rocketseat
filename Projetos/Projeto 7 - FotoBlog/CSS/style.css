@@ -33,7 +33,7 @@ body {
 
 .container {
     padding: 1.6rem 3.2rem;
-    width: min(112rem, 100%);
+    width: min(112rem, 100%); /* O primeiro é o valor mínimo desejado e o segundo é o valor que será usado se não houver restrições. */
     margin: 0 auto;
 }
 
