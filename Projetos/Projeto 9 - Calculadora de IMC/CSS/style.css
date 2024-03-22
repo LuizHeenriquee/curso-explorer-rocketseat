@@ -145,7 +145,7 @@ form button:hover {
 }
 
 /* Alert Error */
-.alert-error {
+.alert-error.open {
     visibility: visible;
     opacity: 1;
     transform: translateY(0);
