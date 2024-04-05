@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "styled-components"
+import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
     * {
@@ -7,9 +7,17 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
+    border-style, input, button, textarea {
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        outline: none;
+    }
+
     body {
-        background: ${({theme}) => theme.COLORS.BACKGROUND_800};
-        color: ${({theme}) => theme.COLORS.WHITE};
+        background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+        color: ${({ theme }) => theme.COLORS.WHITE};
+
+        -webkit-font-smoothing: antialiased;
     }
 
     a {
