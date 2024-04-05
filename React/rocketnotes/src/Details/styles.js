@@ -1,3 +1,5 @@
-body {
-    background-color: aquamarine;
-}
+import styled from 'styled-components'
+
+export const Container = styled.div`
+    background: red;
+`
