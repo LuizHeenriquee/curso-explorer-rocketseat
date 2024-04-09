@@ -2,17 +2,17 @@ import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
     * {
+        font-family: 'Roboto Slab', serif;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
     border-style, input, button, textarea {
-        font-family: 'Roboto Slab', serif;
         font-size: 16px;
         outline: none;
     }
-
+    
     body {
         background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         color: ${({ theme }) => theme.COLORS.WHITE};
