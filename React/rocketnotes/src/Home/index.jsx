@@ -11,7 +11,7 @@ export function Home() {
             <Header/>
             <Menu>
                 <li>
-                    <ButtonText title="Todos" isActive/>
+                    <ButtonText title="Todos" isActive="true"/>
                 </li>
                 <li>
                     <ButtonText title="React"/>
